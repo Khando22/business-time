@@ -1,0 +1,221 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'Lato', 'Corben', sans-serif;
+    background-image: url("images/tattoo-image.jpeg");
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #FFF;
+    
+}
+
+.container {
+    display: flex;
+    padding: 1em;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+ 
+h2 {
+    font-size: 2em;
+    margin-bottom: 0; 
+}
+
+h1 {
+    font-size:  2.7em;
+    letter-spacing: 1.5px;
+}
+
+p {
+    font-size: 1.5em;
+    
+}
+
+
+.background-tint {  
+    margin-top: 25px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+ul {
+    margin-top: 5px;
+    padding: .5em;
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 25px;
+}
+
+li a, span a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    
+    
+}
+
+
+
+li a:hover {
+    border-bottom: 1px solid white;
+    padding-bottom: 2px;
+}
+
+.btn-style {
+    padding: .8rem;
+    background-color: #FF4848;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+
+.btn-style:hover {
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,.12), 0 0 4px 0 rgba(0,0,0,.06), inset 0 2px 6px hsla(0,0%,100%,.4), inset 0 -2px 6px rgba(0,0,0,.1);
+    text-decoration: none;
+}
+.btn-b {
+    display: block;
+    width: 150px;
+    margin: 50px auto;
+}
+
+.tattoo-gallery {
+    background-image: linear-gradient(to top left, grey,  black);
+}
+ img.gallery {
+     width: 250px;
+     height: 250px;
+     border-radius: 50%;
+     margin: 10px;
+ }
+
+ footer {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 2em;
+     background-color: black;
+ }
+ 
+ footer h2 {
+     padding-bottom: 10px;
+     border-bottom: 1px solid white;
+ }
+
+ footer p {
+     font-size: 16px;
+ }
+   
+   /* About Page */
+
+   .img-style {
+       max-width: 450px;
+       float: left;
+       margin: 10px;
+       border: 5px solid white;
+   }
+ .abt-p {
+     margin: 5px;
+     font-weight: 400;
+     letter-spacing: 1.5;
+     padding: 5px;
+     line-height: 1.5;
+     text-align: left;
+ }
+
+ /* contact page form styling */
+
+ .form {
+     text-align: center;
+     padding: 10px;
+     font-size: 1.5rem;
+
+ }
+
+ input[type=text] {
+     width: 400px;
+     padding: 5px 10px;
+     margin-bottom: 25px;
+     border-radius: 4px;
+ }
+
+ textarea {
+     width: 400px;
+     padding: 5px 10px;
+     border: 2px solid #ccc;
+     height: 150px;
+     resize: none;
+     font-size: .7em;
+ }
+
+ input[type=submit] {
+     width: 200px;
+     background-color: #FF4848;
+     color: white;
+     padding: 14px 20px;
+     border-radius: 4px;
+ }
+
+ input[type=submit]:hover {
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,.12), 0 0 4px 0 rgba(0,0,0,.06), inset 0 2px 6px hsla(0,0%,100%,.4), inset 0 -2px 6px rgba(0,0,0,.1);
+  }
+
+
+  /* Artist Page Styles */
+  
+ 
+
+
+/* Media Query */
+  @media only screen and (min-width: 650px) {
+    .container {
+        width: 90%;
+        padding: 2em;
+    }
+        
+        .title { 
+            margin: auto 0;
+        }
+
+        header {
+            margin-bottom: 2.5em;
+        }
+
+        header, ul {
+         display: flex;
+         justify-content: space-between;
+         padding: 1em;
+         align-items: center;
+         
+         
+     }
+     
+
+     ul li  {
+         padding: .5em;
+         align-self: center;
+         background-color: #FF4848;
+         margin: 5px;
+         border: 1px solid red;    
+     }
+     li a:hover {
+         
+        border-bottom: none;
+        
+        
+    }
+}
